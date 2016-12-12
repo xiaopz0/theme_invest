@@ -1,4 +1,4 @@
-simple_rolling_mean <- function(x, window=252){
+simple_rolling_mean <- function(x, window=126){
   res <- x
   res[] <- NA
   mydate <- time(x)
